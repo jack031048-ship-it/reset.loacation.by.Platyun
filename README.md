@@ -5,7 +5,7 @@ Customized by Platyun
 ## 測試環境
 
 - 設備：iPhone 16 Pro
-- iOS：27.0.1
+- iOS：27.0.1、27.2.1
 
 ResetLocation 是 iPhone 定位服務實驗工具，可手動送出服務請求，嘗試協助原本的定位工具重新套用位置。
 
