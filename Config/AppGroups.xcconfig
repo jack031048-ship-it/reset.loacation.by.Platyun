@@ -1,0 +1,5 @@
+// Customized by Platyun
+PL_APP_ENTITLEMENTS = PlatyunLocationProbe/PlatyunLocationProbe.entitlements
+PL_WIDGET_ENTITLEMENTS = PlatyunLocationWidget/PlatyunLocationWidget.entitlements
+
+#include? "Local.xcconfig"

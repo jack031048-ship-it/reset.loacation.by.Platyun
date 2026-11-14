@@ -1,0 +1,4 @@
+af738590c4f706a78fdecd8d5e1c8688af9fe7e050039796e4894c3974770189  ResetLocation-0.1-AppOnly-unsigned.ipa
+765aaff518c779849f29739a0cb1342bf3cff8161262726c4871e789fce780f7  ResetLocation-0.1-WithWidget-unsigned.ipa
+af738590c4f706a78fdecd8d5e1c8688af9fe7e050039796e4894c3974770189  Restlocation-0.1-AppOnly-unsigned.ipa
+765aaff518c779849f29739a0cb1342bf3cff8161262726c4871e789fce780f7  Restlocation-0.1-WithWidget-unsigned.ipa

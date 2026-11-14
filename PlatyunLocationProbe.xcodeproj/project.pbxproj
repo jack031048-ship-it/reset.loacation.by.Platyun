@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* main.m */; };
+		A10000000000000000000002 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* UIKit.framework */; };
+		A10000000000000000000003 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* CoreLocation.framework */; };
+		A10000000000000000000004 /* PLRequestGate.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* PLRequestGate.m */; };
+		A10000000000000000000005 /* PLRequestCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* PLRequestCoordinator.m */; };
+		A10000000000000000000006 /* PLShutdownBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* PLShutdownBackend.m */; };
+		A10000000000000000000007 /* PLAppEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* PLAppEnvironment.m */; };
+		A10000000000000000000008 /* ReapplyLocationIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* ReapplyLocationIntent.swift */; };
+		A10000000000000000000009 /* PLWidgetShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* PLWidgetShared.swift */; };
+		A1000000000000000000000A /* PLWidgetBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* PLWidgetBridge.swift */; };
+		A1000000000000000000000B /* PlatyunLocationWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* PlatyunLocationWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1000000000000000000000C /* PlatyunLocationWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* PlatyunLocationWidget.swift */; };
+		A1000000000000000000000D /* ReapplyLocationIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* ReapplyLocationIntent.swift */; };
+		A1000000000000000000000E /* PLWidgetShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* PLWidgetShared.swift */; };
+		A1000000000000000000000F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* Assets.xcassets */; };
+		A10000000000000000000010 /* WidgetAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* WidgetAssets.xcassets */; };
+		A10000000000000000000011 /* PLRequestGate.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* PLRequestGate.m */; };
+		A10000000000000000000012 /* PLRequestCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* PLRequestCoordinator.m */; };
+		A10000000000000000000013 /* PLShutdownBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* PLShutdownBackend.m */; };
+		A10000000000000000000014 /* PLWidgetSender.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* PLWidgetSender.m */; };
+		A10000000000000000000015 /* PLWidgetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001C /* PLWidgetRequest.swift */; };
+		A10000000000000000000016 /* WidgetIconBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001E /* WidgetIconBackground.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A90000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000002;
+			remoteInfo = PlatyunLocationWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A40000000000000000000007 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1000000000000000000000B /* PlatyunLocationWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A20000000000000000000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000003 /* PlatyunLocationProbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatyunLocationProbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000004 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A20000000000000000000005 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A20000000000000000000006 /* PLRequestGate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLRequestGate.h; sourceTree = "<group>"; };
+		A20000000000000000000007 /* PLRequestGate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLRequestGate.m; sourceTree = "<group>"; };
+		A20000000000000000000008 /* PLRequestCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLRequestCoordinator.h; sourceTree = "<group>"; };
+		A20000000000000000000009 /* PLRequestCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLRequestCoordinator.m; sourceTree = "<group>"; };
+		A2000000000000000000000A /* PLShutdownBackend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLShutdownBackend.h; sourceTree = "<group>"; };
+		A2000000000000000000000B /* PLShutdownBackend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLShutdownBackend.m; sourceTree = "<group>"; };
+		A2000000000000000000000C /* PLAppEnvironment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLAppEnvironment.h; sourceTree = "<group>"; };
+		A2000000000000000000000D /* PLAppEnvironment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLAppEnvironment.m; sourceTree = "<group>"; };
+		A2000000000000000000000E /* PLWidgetBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLWidgetBridge.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* PlatyunLocationProbe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlatyunLocationProbe-Bridging-Header.h"; sourceTree = "<group>"; };
+		A20000000000000000000010 /* PlatyunLocationProbe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlatyunLocationProbe.entitlements; sourceTree = "<group>"; };
+		A20000000000000000000011 /* ReapplyLocationIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReapplyLocationIntent.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* PLWidgetShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLWidgetShared.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* PlatyunLocationWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatyunLocationWidget.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000015 /* PlatyunLocationWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlatyunLocationWidget.entitlements; sourceTree = "<group>"; };
+		A20000000000000000000016 /* PlatyunLocationWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlatyunLocationWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000017 /* AppGroups.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppGroups.xcconfig; sourceTree = "<group>"; };
+		A20000000000000000000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000019 /* WidgetAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WidgetAssets.xcassets; sourceTree = "<group>"; };
+		A2000000000000000000001A /* PLWidgetSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLWidgetSender.h; sourceTree = "<group>"; };
+		A2000000000000000000001B /* PLWidgetSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLWidgetSender.m; sourceTree = "<group>"; };
+		A2000000000000000000001C /* PLWidgetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLWidgetRequest.swift; sourceTree = "<group>"; };
+		A2000000000000000000001D /* PlatyunLocationWidget-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlatyunLocationWidget-Bridging-Header.h"; sourceTree = "<group>"; };
+		A2000000000000000000001E /* WidgetIconBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetIconBackground.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000002 /* UIKit.framework in Frameworks */,
+				A10000000000000000000003 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000002 /* PlatyunLocationProbe */,
+				A30000000000000000000005 /* Shared */,
+				A30000000000000000000006 /* PlatyunLocationWidget */,
+				A30000000000000000000007 /* Config */,
+				A30000000000000000000003 /* Frameworks */,
+				A30000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A30000000000000000000002 /* PlatyunLocationProbe */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* main.m */,
+				A20000000000000000000006 /* PLRequestGate.h */,
+				A20000000000000000000007 /* PLRequestGate.m */,
+				A20000000000000000000008 /* PLRequestCoordinator.h */,
+				A20000000000000000000009 /* PLRequestCoordinator.m */,
+				A2000000000000000000000A /* PLShutdownBackend.h */,
+				A2000000000000000000000B /* PLShutdownBackend.m */,
+				A2000000000000000000001A /* PLWidgetSender.h */,
+				A2000000000000000000001B /* PLWidgetSender.m */,
+				A2000000000000000000000C /* PLAppEnvironment.h */,
+				A2000000000000000000000D /* PLAppEnvironment.m */,
+				A2000000000000000000000E /* PLWidgetBridge.swift */,
+				A2000000000000000000000F /* PlatyunLocationProbe-Bridging-Header.h */,
+				A20000000000000000000010 /* PlatyunLocationProbe.entitlements */,
+				A20000000000000000000018 /* Assets.xcassets */,
+				A20000000000000000000002 /* Info.plist */,
+			);
+			path = PlatyunLocationProbe;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000004 /* UIKit.framework */,
+				A20000000000000000000005 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000003 /* PlatyunLocationProbe.app */,
+				A20000000000000000000016 /* PlatyunLocationWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000005 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000011 /* ReapplyLocationIntent.swift */,
+				A20000000000000000000012 /* PLWidgetShared.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000006 /* PlatyunLocationWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000013 /* PlatyunLocationWidget.swift */,
+				A2000000000000000000001C /* PLWidgetRequest.swift */,
+				A2000000000000000000001E /* WidgetIconBackground.swift */,
+				A2000000000000000000001D /* PlatyunLocationWidget-Bridging-Header.h */,
+				A20000000000000000000019 /* WidgetAssets.xcassets */,
+				A20000000000000000000014 /* Info.plist */,
+				A20000000000000000000015 /* PlatyunLocationWidget.entitlements */,
+			);
+			path = PlatyunLocationWidget;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000007 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000017 /* AppGroups.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* PlatyunLocationProbe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000002 /* Build configuration list for PBXNativeTarget "PlatyunLocationProbe" */;
+			buildPhases = (
+				A40000000000000000000001 /* Sources */,
+				A40000000000000000000002 /* Frameworks */,
+				A40000000000000000000003 /* Resources */,
+				A40000000000000000000007 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = PlatyunLocationProbe;
+			productName = PlatyunLocationProbe;
+			productReference = A20000000000000000000003 /* PlatyunLocationProbe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50000000000000000000002 /* PlatyunLocationWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000003 /* Build configuration list for PBXNativeTarget "PlatyunLocationWidget" */;
+			buildPhases = (
+				A40000000000000000000004 /* Sources */,
+				A40000000000000000000005 /* Frameworks */,
+				A40000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatyunLocationWidget;
+			productName = PlatyunLocationWidget;
+			productReference = A20000000000000000000016 /* PlatyunLocationWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+					};
+					A50000000000000000000002 = {
+						CreatedOnToolsVersion = 27.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "PlatyunLocationProbe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_TW;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh_TW,
+				en,
+				Base,
+			);
+			mainGroup = A30000000000000000000001;
+			productRefGroup = A30000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* PlatyunLocationProbe */,
+				A50000000000000000000002 /* PlatyunLocationWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000010 /* WidgetAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* main.m in Sources */,
+				A10000000000000000000004 /* PLRequestGate.m in Sources */,
+				A10000000000000000000005 /* PLRequestCoordinator.m in Sources */,
+				A10000000000000000000006 /* PLShutdownBackend.m in Sources */,
+				A10000000000000000000007 /* PLAppEnvironment.m in Sources */,
+				A10000000000000000000008 /* ReapplyLocationIntent.swift in Sources */,
+				A10000000000000000000009 /* PLWidgetShared.swift in Sources */,
+				A1000000000000000000000A /* PLWidgetBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000C /* PlatyunLocationWidget.swift in Sources */,
+				A1000000000000000000000D /* ReapplyLocationIntent.swift in Sources */,
+				A1000000000000000000000E /* PLWidgetShared.swift in Sources */,
+				A10000000000000000000011 /* PLRequestGate.m in Sources */,
+				A10000000000000000000012 /* PLRequestCoordinator.m in Sources */,
+				A10000000000000000000013 /* PLShutdownBackend.m in Sources */,
+				A10000000000000000000014 /* PLWidgetSender.m in Sources */,
+				A10000000000000000000015 /* PLWidgetRequest.swift in Sources */,
+				A10000000000000000000016 /* WidgetIconBackground.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50000000000000000000002 /* PlatyunLocationWidget */;
+			targetProxy = A90000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000017 /* AppGroups.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000017 /* AppGroups.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A80000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(PL_APP_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlatyunLocationProbe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platyun.locationserviceprobe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "PlatyunLocationProbe/PlatyunLocationProbe-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A80000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(PL_APP_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlatyunLocationProbe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platyun.locationserviceprobe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "PlatyunLocationProbe/PlatyunLocationProbe-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A80000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(PL_WIDGET_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlatyunLocationWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platyun.locationserviceprobe.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG WIDGET_EXTENSION";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlatyunLocationWidget/PlatyunLocationWidget-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A80000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(PL_WIDGET_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlatyunLocationWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platyun.locationserviceprobe.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_EXTENSION;
+				SWIFT_OBJC_BRIDGING_HEADER = "PlatyunLocationWidget/PlatyunLocationWidget-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXProject "PlatyunLocationProbe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001 /* Debug */,
+				A80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "PlatyunLocationProbe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000003 /* Debug */,
+				A80000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000003 /* Build configuration list for PBXNativeTarget "PlatyunLocationWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000005 /* Debug */,
+				A80000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}

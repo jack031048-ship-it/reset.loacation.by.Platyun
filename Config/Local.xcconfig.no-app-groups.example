@@ -1,0 +1,5 @@
+// Customized by Platyun
+// 無 App Groups 建置：複製成同資料夾的 Local.xcconfig 即生效，刪除 Local.xcconfig 即還原。
+// 效果：App 正常運作；小工具讀不到狀態，只顯示「開啟 App 查看狀態」，沒有一鍵送出按鈕，點了只會開啟 App。
+PL_APP_ENTITLEMENTS =
+PL_WIDGET_ENTITLEMENTS =
