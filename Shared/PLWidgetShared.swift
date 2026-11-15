@@ -2,7 +2,9 @@
 import Foundation
 
 enum PLShared {
-    static let appGroup = "group.com.platyun.locationserviceprobe"
+    static var appGroup: String {
+        Bundle.main.object(forInfoDictionaryKey: "PLAppGroup") as? String ?? ""
+    }
     static let widgetKind = "PlatyunLocationWidget"
 
     enum Key {

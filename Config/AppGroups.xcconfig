@@ -1,5 +1,8 @@
 // Customized by Platyun
 PL_APP_ENTITLEMENTS = PlatyunLocationProbe/PlatyunLocationProbe.entitlements
 PL_WIDGET_ENTITLEMENTS = PlatyunLocationWidget/PlatyunLocationWidget.entitlements
+PL_ID_OWNER = $(DEVELOPMENT_TEAM:default=platyun)
+PL_BUNDLE_ID = com.$(PL_ID_OWNER).locationserviceprobe
+PL_APP_GROUP = group.$(PL_BUNDLE_ID)
 
 #include? "Local.xcconfig"

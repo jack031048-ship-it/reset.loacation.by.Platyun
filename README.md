@@ -4,8 +4,8 @@ Customized by Platyun
 
 ## 測試環境
 
-- 設備：iPhone 16 Pro
-- iOS：27.0.1、27.2.1
+- iPhone 16 Pro：iOS 27.0.1、27.2.1
+- iPhone 18 Pro Max：iOS 27.2
 
 ResetLocation 是 iPhone 定位服務實驗工具，可手動送出服務請求，嘗試協助原本的定位工具重新套用位置。
 
@@ -41,7 +41,7 @@ IPA 尚未簽名，需由使用者透過 Sideloadly 等工具，以自己的 App
 準備一台 iPhone、可建置本專案的 Mac 與 Xcode，以及自己的 Apple 開發者簽署身分。本專案以 iOS 27 為主要使用環境；不同系統版本的實際效果需自行驗證。
 
 1. 使用 Xcode 開啟 `PlatyunLocationProbe.xcodeproj`。
-2. 在 App 與小工具兩個 target 的 **Signing & Capabilities** 選擇自己的 Team，依提示處理 Bundle Identifier 與 App Groups。
+2. 在 App 與小工具兩個 target 的 **Signing & Capabilities** 選擇自己的 Team。Bundle Identifier 與 App Group 會依 Team ID 自動產生，不需手動修改。
 3. 連接 iPhone，依提示完成信任及開發者模式設定，選取裝置後按 **Run**。
 4. 開啟 App，確認狀態後按「重新套用定位」，再回到原本的定位工具操作。
 

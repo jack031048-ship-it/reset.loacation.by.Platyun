@@ -10,6 +10,7 @@
   <key>CFBundlePackageType</key><string>XPC!</string>
   <key>CFBundleShortVersionString</key><string>0.1</string>
   <key>CFBundleVersion</key><string>1</string>
+  <key>PLAppGroup</key><string>$(PL_APP_GROUP)</string>
   <key>NSExtension</key><dict>
     <key>NSExtensionPointIdentifier</key><string>com.apple.widgetkit-extension</string>
   </dict>
